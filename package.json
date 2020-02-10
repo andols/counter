@@ -1,0 +1,26 @@
+{
+  "name": "cssinjs-academy",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "parcel build src/index",
+    "start": "parcel src/index.html --open",
+    "pretty": "prettier --write **/*.{md,js,ts,jsx,tsx,json}"
+  },
+  "dependencies": {
+    "@glitz/core": "^2.1.1",
+    "@glitz/react": "^3.0.0-alpha.2",
+    "@glitz/transformers": "^2.0.8",
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.3",
+    "components": "^0.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "1.18.2",
+    "typescript": "3.5.3"
+  }
+}

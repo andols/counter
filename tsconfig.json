@@ -1,0 +1,40 @@
+{
+    "buildOnSave": false,
+    "compileOnSave": false,
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "*": ["./src/*"],
+      },
+      "noImplicitAny": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "jsx": "react",
+      "target": "es5",
+      "module": "esnext",
+      "lib": ["es2018", "dom", "dom.iterable", "scripthost"],
+      "downlevelIteration": true,
+      "importHelpers": true,
+      "noFallthroughCasesInSwitch": true,
+      "noEmit": true,
+      "moduleResolution": "node",
+      "noUnusedParameters": false,
+      "noUnusedLocals": false,
+      "sourceMap": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "formatCodeOptions": {
+      "indentSize": 2,
+      "tabSize": 2,
+      "newLineCharacter": "\r\n",
+      "convertTabsToSpaces": true,
+      "insertSpaceAfterCommaDelimiter": true,
+      "insertSpaceAfterSemicolonInForStatements": true,
+      "insertSpaceBeforeAndAfterBinaryOperators": true,
+      "insertSpaceAfterKeywordsInControlFlowStatements": true,
+      "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+      "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+      "placeOpenBraceOnNewLineForFunctions": false,
+      "placeOpenBraceOnNewLineForControlBlocks": false
+    }
+  }
+  
